@@ -17,6 +17,7 @@ type OpData struct {
 	FirstName string `json:"first_name,omitempty" bson:"first_name,omitempty"`
 	LastName  string `json:"last_name,omitempty" bson:"last_name,omitempty"`
 	Email     string `json:"email,omitempty" bson:"email,omitempty"`
+	category  string `json:"category,omitempty" bson:"category,omitempty"`
 }
 type CustomResponse struct {
 	Message string      `json:"message"`
